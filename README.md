@@ -5,7 +5,7 @@
 *pkg upgrade && pkg update
 *pkg install python2
 *pkg install git
-*pkg install lolcat
+*gem install lolcat
 *pkg install figlet
 *pkg install toilet
 *pkg install cowsay
