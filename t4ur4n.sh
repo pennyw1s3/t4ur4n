@@ -111,7 +111,6 @@ pkg install python2
 git clone https://github.com/dotfighter/torshammer.git
 cd torshammer
 chmod +x *
-python2 torshammer.py
 echo "ketik : cd torshammer"|lolcat
 echo "cara menggunakan: python2 torshammer.py"|lolcat
 fi
@@ -125,7 +124,6 @@ pkg install python2
 git clone https://github.com/4L13199/LITEDDOS
 cd LITEDDOS
 chmod +x *
-python2 liteDDOS.py
 echo "cara pake ketik: cd LITEDDOS"|lolcat
 echo "Trus ketik: python2 liteDDOS.py"
 fi
@@ -141,9 +139,20 @@ apt install lolcat
 git clone https://github.com/BPCATTACKER/DOS-TOOKITS
 cd DOS-TOOKITS
 chmod +x *
-sh DoS-TOOKITS.sh
 echo "cara pake: cd DOS-TOOKITS"|lolcat
 echo "trus: sh DoS-TOOKITS.sh"|lolcat
+fi
+
+if [ $tpw = 6 ] || [ $tpw = 6 ]
+then
+echo "Sedang loading.. bngsd_-"|lolcat
+pkg update && pkg upgrade
+apt install git
+apt install python2
+git clone https://github.com/grafov/hulk
+cd hulk
+chmod +x *
+echo "cara pake: python2 hulk.py [url]"|lolcat
 fi
 
 if [ $tpw = 00 ] || [ $tpw = 00 ]
